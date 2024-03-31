@@ -31,4 +31,4 @@ const main = () =>{
     
 
 }
-main()
+
