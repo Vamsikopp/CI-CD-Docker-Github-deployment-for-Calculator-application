@@ -5,6 +5,9 @@
 /****Containerize the source code using a Dockerfile****/
 
 
+
+1.Install docker application
+
 To containerize code using docker file:
 
 Create a new file named “Dockerfile” in the same directory as your application file.
@@ -97,9 +100,7 @@ Verify it using the curl command
 With the help of the curl command, we can verify it.
 
 
-COPY
-
-COPY
-curl http://localhost:8000/add/3/2
+After open Backoffice and run on it.
+ http://localhost:8000/add/3/2
 
 
