@@ -41,15 +41,13 @@ Copy our application from our local/host machine into the working directory.
 COPY
 
 COPY
- COPY app.py .
+ COPY 
 Define CMD as the startup command. Specify the command that should be executed when a container is launched from the image.
 
 
 
 
-COPY
- CMD ["python”, “app.py”]
-Below is the completed Dockerfile:
+
 
 
 
@@ -61,7 +59,7 @@ COPY
 
 COPY
 docker build -t calculator .
-Above command instructed Docker to build a new image using the Dockerfile in the current directory and name the image as python-calculator.
+Above command instructed Docker to build a new image using the Dockerfile in the current directory and name the image as -calculator.
 
 
 
@@ -83,7 +81,7 @@ COPY
 
 COPY
 docker run -d -p 8000:5000 calculator
-This above command runs a new Docker container from the python-calculator image.
+This above command runs a new Docker container from the calculator image.
 
 
 
