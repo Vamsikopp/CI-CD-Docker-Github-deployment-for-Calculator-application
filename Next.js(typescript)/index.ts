@@ -26,7 +26,7 @@ const main = () =>{
    if(operator =="sum"){
        sum(+firstNumber,+secondNumber)
    }else{
-       console.log('fuck you!')
+       console.log("Done");
    }
     
 
