@@ -1,12 +1,7 @@
-// Copyright 2020 Paul Greenberg (greenpau@outlook.com)
 
-package calculator
 
-import (
-	"fmt"
-	"math/rand"
-	"testing"
-)
+
+
 
 type TestInput struct {
 	description string
